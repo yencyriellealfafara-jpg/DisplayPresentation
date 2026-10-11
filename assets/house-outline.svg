@@ -1,0 +1,7 @@
+<svg width="400" height="350" viewBox="0 0 400 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main House Structure -->
+    <path d="M50 200V310H350V200M200 40L330 150V190H270V120H240V190H70V150L200 40Z" stroke="#1A1A1A" stroke-width="10" stroke-linejoin="round"/>
+    <!-- Windows -->
+    <rect x="150" y="140" width="80" height="60" stroke="#1A1A1A" stroke-width="6"/>
+    <line x1="190" y1="140" x2="190" y2="200" stroke="#1A1A1A" stroke-width="6"/>
+</svg>

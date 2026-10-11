@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Sketch lines">
+  <g fill="none" stroke="#d96b43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M20 160 C 55 100, 72 80, 100 110 S 155 175, 200 90"/>
+    <path d="M25 55 L 72 105 L 118 53 L 170 111 L 200 70"/>
+    <circle cx="60" cy="125" r="16" stroke="#2b5ee8"/>
+    <circle cx="150" cy="155" r="12" stroke="#2b5ee8"/>
+  </g>
+</svg>

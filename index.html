@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements & Principles of Design - Interactive Presentation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts for typography matching the design -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Presentation Container -->
+    <div class="presentation-container">
+
+        <!-- Top Navigation / Progress Bar -->
+        <header class="presentation-header">
+            <div class="header-left">
+                <span id="slide-indicator">01 / LESSON OVERVIEW</span>
+            </div>
+            <div class="header-right">
+                <button id="prev-btn" class="nav-btn" aria-label="Previous Slide">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <span id="slide-counter">1 / 11</span>
+                <button id="next-btn" class="nav-btn" aria-label="Next Slide">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Slides Wrapper -->
+        <main class="slides-wrapper">
+
+            <!-- SLIDE 1: Title Hero -->
+            <section class="slide intro-slide active" data-slide="1" data-indicator="01 / LESSON OVERVIEW">
+                <div class="slide-content intro-layout">
+                    <div class="intro-copy">
+                        <h1 class="intro-title">Elements of a<br><span>Good Design</span></h1>
+                        <p class="intro-subtitle">Design Fundamentals &amp; Interactive Workshop</p>
+                    </div>
+                    <div class="intro-visual">
+                        <div class="image-placeholder intro-image-placeholder" role="img" aria-label="Title image placeholder">
+                            <span>Replace with your title image</span>
+                            <code>assets/your-title-image.jpg</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Elements of Design Intro (Image 5 style) -->
+            <section class="slide dark-slide" data-slide="2" data-indicator="PART I">
+                <div class="slide-content centered-content">
+                    <div class="hero-text-block">
+                        <span class="part-label">PART I</span>
+                        <h1 class="hero-title">Elements of Design</h1>
+                        <div class="accent-bar blue-bar"></div>
+                    </div>
+                    <div class="svg-decoration bottom-right" data-svg="wave-line"></div>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: The Fundamental Components (Image 6 style) -->
+            <section class="slide" data-slide="3" data-indicator="03 / ELEMENTS OF DESIGN">
+                <div class="slide-content header-top-layout elements-slide-content">
+                    <h2 class="section-heading">The Fundamental Components</h2>
+                    <div class="two-column-grid">
+                        <div class="column-box">
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Line</h3>
+                                <p class="item-desc">Line: A mark made by a moving point across a surface. It has length and width, and it can be straight, curved, jagged, thick, or thin.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Shape & Form</h3>
+                                <p class="item-desc">Shape & Form: A shape is a two-dimensional area defined by lines. A form is the three-dimensional version, possessing depth, volume, and mass.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Color</h3>
+                                <p class="item-desc">Color: The visual sensation produced by the way an object reflects or emits light, categorized by its hue, value, and saturation.</p>
+                            </div>
+                        </div>
+                        <div class="column-box tilted-card white-bg">
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Texture</h3>
+                                <p class="item-desc">Texture: The perceived surface quality of an artwork or design. It can be physical or tactile, or visual and implied.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Space</h3>
+                                <p class="item-desc">Space: The area around, within, and between elements in a design. It is divided into positive space and negative space.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Value</h3>
+                                <p class="item-desc">Value: The relative lightness or darkness of a color or tone, independent of its hue. It creates contrast and defines shapes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elements-image-row">
+                        <div class="image-placeholder" role="img" aria-label="Line and form image placeholder">
+                            <span>Replace with an image</span>
+                            <code>assets/pencil.jpg</code>
+                        </div>
+                        <div class="image-placeholder" role="img" aria-label="Color and texture image placeholder">
+                            <span>Replace with an image</span>
+                            <code>assets/fabric.jpg</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Elements in Practice (Image 7 style) -->
+            <section class="slide" data-slide="4" data-indicator="04 / VISUAL EXAMPLES">
+                <div class="slide-content two-column">
+                    <div class="text-card tilted-card">
+                        <h2 class="card-heading orange-border-bottom">Elements of Design in Practice: Visual Examples</h2>
+                        <p class="body-text"><strong>Tactile texture</strong> refers to the actual physical surface quality of an object that can be felt by touch. Examples include the rough grain of natural wood, the soft pile of velvet fabric, or the cold, smooth surface of polished marble.</p>
+                        <p class="body-text"><strong>Visual texture</strong>, or implied texture, is the illusion of physical texture created through artistic techniques. In design, this is achieved by using patterns, varying line weights, or shading to simulate the appearance of surfaces like stone, metal, or fur on a two-dimensional plane. These visual cues allow the viewer to perceive depth and material quality without physical contact.</p>
+                    </div>
+                    <div class="visual-stack">
+                        <div class="image-wrapper shadow-card small-img">
+                            <div class="image-placeholder" role="img" aria-label="Architecture texture image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/architecture.jpg</code>
+                            </div>
+                        </div>
+                        <div class="image-wrapper shadow-card small-img">
+                            <div class="image-placeholder" role="img" aria-label="Tactile texture fabric image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/fabric.jpg</code>
+                            </div>
+                            <div class="badge white-badge">TACTILE TEXTURE</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: Principles of Design Intro (Image 8 style) -->
+            <section class="slide dark-slide" data-slide="5" data-indicator="PART II">
+                <div class="slide-content centered-content">
+                    <div class="hero-text-block">
+                        <h1 class="hero-title">Principles of Design</h1>
+                        <div class="accent-bar orange-bar"></div>
+                    </div>
+                    <div class="svg-decoration top-right" data-svg="curve-arrow-blue-up"></div>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: Governing Rules & Guidelines (Image 9 style) -->
+            <section class="slide" data-slide="6" data-indicator="05 / PRINCIPLES OF DESIGN">
+                <div class="slide-content header-top-layout">
+                    <h2 class="section-heading">Governing Rules & Guidelines</h2>
+                    <div class="two-column-grid">
+                        <div class="column-box tilted-card white-bg">
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Balance</h3>
+                                <p class="item-desc">Balance: The distribution of visual weight within a design. It creates a sense of equilibrium, stability, and comfort for the viewer.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Contrast</h3>
+                                <p class="item-desc">Contrast: The arrangement of opposite or strongly dissimilar elements. It breaks monotony, draws attention to focal points, and makes content readable.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title orange-text">Emphasis</h3>
+                                <p class="item-desc">Emphasis: The practice of making a specific element stand out as the most important part of the design, capturing the viewer's attention first.</p>
+                            </div>
+                        </div>
+                        <div class="column-box">
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Movement</h3>
+                                <p class="item-desc">Movement: The path the viewer's eye follows through a design. It creates a sense of flow and narrative, leading the audience smoothly.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Unity & Harmony</h3>
+                                <p class="item-desc">Unity and Harmony: The feeling of completeness and cohesion, where all individual elements look like they belong together and serve a single purpose.</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 class="item-title blue-text">Rhythm & Pattern</h3>
+                                <p class="item-desc">Rhythm and Pattern: Pattern is the consistent repetition of a specific element. Rhythm is the feeling of organized movement created by the repetition.</p>
+                            </div>
+                            <div class="image-thumb-bottom image-placeholder" role="img" aria-label="Pattern image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/gears.jpg</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: Principles in Practice (Image 10 style) -->
+            <section class="slide" data-slide="7" data-indicator="06 / VISUAL PRACTICE">
+                <div class="slide-content header-top-layout">
+                    <h2 class="section-heading">Principles of Design in Practice: Visual Examples</h2>
+                    <div class="quad-grid">
+                        <div class="image-wrapper shadow-card">
+                            <div class="image-placeholder" role="img" aria-label="Symmetry building image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/building.jpg</code>
+                            </div>
+                            <div class="badge">SYMMETRY</div>
+                        </div>
+                        <div class="image-wrapper shadow-card">
+                            <div class="image-placeholder" role="img" aria-label="Focal point image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/concrete.jpg</code>
+                            </div>
+                        </div>
+                        <div class="image-wrapper shadow-card">
+                            <div class="image-placeholder" role="img" aria-label="Industrial pattern image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/pipes.jpg</code>
+                            </div>
+                        </div>
+                        <div class="image-wrapper shadow-card desc-card-img">
+                            <div class="image-placeholder" role="img" aria-label="Focal point chair image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/chair.jpg</code>
+                            </div>
+                            <div class="badge">FOCAL POINT</div>
+                            <p class="caption-text">The best example of design elements and principles in practice is a balanced composition where symmetry creates stability and a clear focal point captures attention.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: Interactive Activity (Image 3 style) -->
+            <section class="slide" data-slide="8" data-indicator="07 / INTERACTIVE ACTIVITY">
+                <div class="slide-content two-column">
+                    <div class="text-card tilted-card">
+                        <h2 class="slide-title">Activity: “Design the House”</h2>
+                        <p class="body-text">The students will be divided into four groups. Each group will be given a picture of an empty house. Each group will have 1 minute and 30 seconds to add or draw details to the house using their own creative ideas and applying the elements of good design.</p>
+                        <p class="body-text mt-4">After the time is up, each group will choose one representative to present and explain their group’s design to the class.</p>
+                    </div>
+                    <div class="visual-card white-bg shadow-card tilted-card">
+                        <div class="house-drawing-area">
+                            <div class="image-placeholder house-image-placeholder" role="img" aria-label="House drawing image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/empty-house.jpg</code>
+                            </div>
+                            <div class="badge orange-badge-text">CREATIVE INPUT</div>
+                            <div class="badge blue-circle-badge">90s</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: Questions / Discussion (Image 4 style) -->
+            <section class="slide" data-slide="9" data-indicator="08 / DISCUSSION">
+                <div class="slide-content header-top-layout">
+                    <h2 class="section-heading">Questions</h2>
+                    <div class="three-col-layout">
+                        <div class="question-box">
+                            <span class="q-num">01.</span>
+                            <h3 class="q-title">Visual Attention</h3>
+                            <p class="q-desc">Look around the room or at a common poster or advertisement. Which single element, such as color, line, or space, grabs your attention first, and why do you think the creator designed it that way?</p>
+                        </div>
+                        <div class="question-box">
+                            <span class="q-num">02.</span>
+                            <h3 class="q-title">Lack of Contrast</h3>
+                            <p class="q-desc">Imagine a website or a poster where all the text is the exact same size, color, and font, with zero spacing or contrast. How would that affect your ability to understand its message?</p>
+                        </div>
+                        <div class="question-box-stack">
+                            <div class="question-box mb-3">
+                                <span class="q-num">03.</span>
+                                <h3 class="q-title">Stability vs Chaos</h3>
+                                <p class="q-desc">If you were asked to design a poster that feels stable and professional versus one that feels chaotic and energetic, which principles of design would you manipulate, and how would you use them?</p>
+                            </div>
+                            <div class="image-wrapper shadow-card tiny-img">
+                                <div class="image-placeholder" role="img" aria-label="Visual hierarchy image placeholder">
+                                    <span>Replace with an image</span>
+                                    <code>assets/eyechart.jpg</code>
+                                </div>
+                                <div class="badge orange-badge">VISUAL HIERARCHY</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: Synthesis / Summary (Image 11 style) -->
+            <section class="slide" data-slide="10" data-indicator="09 / SYNTHESIS">
+                <div class="slide-content two-column">
+                    <div class="text-card tilted-card">
+                        <h2 class="card-heading highlight-peach">Synthesis: Mastering Visual Order</h2>
+                        <p class="body-text">The elements of design serve as the foundational building blocks of any visual work, providing the raw materials like lines, shapes, colors, textures, spaces, and values.</p>
+                        <p class="body-text">However, raw materials alone do not make a successful composition. The principles of design such as balance, contrast, emphasis, movement, unity, and rhythm act as the governing rules that guide how those elements are organized.</p>
+                        <p class="body-text">Ultimately, mastering both elements and principles allows creators to move beyond random arrangement, enabling them to intentionally guide the viewer's eye, evoke specific emotions, communicate clear messages, and transform visually chaotic concepts into polished, professional, and harmonious designs.</p>
+                    </div>
+                    <div class="visual-stack">
+                        <div class="image-wrapper shadow-card small-img">
+                            <div class="image-placeholder" role="img" aria-label="Intention image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/cube.jpg</code>
+                            </div>
+                            <div class="badge white-badge">INTENTION</div>
+                        </div>
+                        <div class="image-wrapper shadow-card small-img tilted-card">
+                            <div class="image-placeholder" role="img" aria-label="Ink image placeholder">
+                                <span>Replace with an image</span>
+                                <code>assets/ink.jpg</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: End / Thank You -->
+            <section class="slide dark-slide" data-slide="11" data-indicator="END / Q&A">
+                <div class="slide-content centered-content">
+                    <div class="hero-text-block">
+                        <h1 class="hero-title">Thank You!</h1>
+                        <p class="hero-subtitle">Open for Questions & Discussion</p>
+                        <div class="accent-bar blue-bar mx-auto"></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer / Controls -->
+        <footer class="presentation-footer">
+            <div class="footer-dots" id="dots-container">
+                <!-- Dots generated dynamically via JS -->
+            </div>
+            <div class="keyboard-hint">Use ◄ / ► arrow keys to navigate</div>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
